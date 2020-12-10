@@ -1,0 +1,28 @@
+/*--------------------Estructura a seguir----------------*/
+/* 1. Posicionamiento */
+/* 2. Modelo de caja (Box model) */
+/* 3. Tipografía */
+/* 4. Visuales (diseño) */
+/* 5. Otros */
+/*--------------------Estilos generales----------------*/
+:root {
+  /* Colores */
+  --emerald: #4ad37d;
+  --dartmouth-green: #017b3a;
+  --alice-blue: #eff7fa;
+  --nickel: #6b766c;
+  --cadet-blue: #38a3a5;
+  --pine-tree: #242e24;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Source Serif Pro', serif; */
+html {
+  font-size: 62.5%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
