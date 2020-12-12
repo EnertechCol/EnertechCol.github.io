@@ -89,7 +89,7 @@ header {
   /* 2. Modelo de caja (Box model) */
   width: 50%;
   max-width: 208px;
-  height: 80px;
+  height: 100px;
   margin-bottom: 20px;
   /* 3. Tipografía */
   text-align: left;
@@ -111,11 +111,25 @@ header {
   color: var(--alice-blue);
 }
 .header-container__text {
-  color: var(--alice-blue);
   align-self: center;
   text-align: left;
   padding: 25px 28px 15px 20px;
   font-family: 'Source Serif Pro', serif;
   font-weight: 500;
+  color: var(--alice-blue);
   font-size: 1.2rem;
+}
+
+/*--------------------Seccion beneficios----------------*/
+.beneficios-container {
+  /* 1. Posicionamiento */
+
+  /* 2. Modelo de caja (Box model) */
+  width: 100%;
+  height: auto;
+  /* 3. Tipografía */
+
+  /* 4. Visuales (diseño) */
+  background-color: var(--alice-blue);
+  /* 5. Otros */
 }
