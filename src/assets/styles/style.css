@@ -37,14 +37,14 @@ header {
   width: 100%;
   min-width: 320px;
   height: 100vh;
-  max-height: 514px;
+  max-height: 731px;
   /* 3. Tipografía */
   text-align: center;
   /* 4. Visuales (diseño) */
   background-image: url('../static/headerBackground.jpg');
   background-repeat: no-repeat;
   background-position: 60% 50%;
-  background-size: 250%;
+  background-size: cover;
   /* 5. Otros */
 }
 
