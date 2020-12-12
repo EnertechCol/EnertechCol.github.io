@@ -126,10 +126,89 @@ header {
 
   /* 2. Modelo de caja (Box model) */
   width: 100%;
+  min-width: 320px;
   height: auto;
   /* 3. Tipografía */
 
   /* 4. Visuales (diseño) */
   background-color: var(--alice-blue);
   /* 5. Otros */
+}
+
+.beneficios-container .beneficios-container__title {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 36px;
+  font-size: 3.4rem;
+  line-height: 45px;
+  text-align: center;
+  color: var(--pine-tree);
+}
+.beneficios-container hr {
+  width: 20%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  height: 2px;
+  border-width: 0;
+  color: var(--pine-tree);
+  background-color: var(--pine-tree);
+}
+
+.beneficios-container .information-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 60px;
+  text-align: center;
+}
+
+.information-container .information-container__article {
+  display: grid;
+  gap: 5px;
+  width: 80%;
+  max-width: 392px;
+  margin: 0 auto;
+}
+.information-container .information-container__article h3 {
+  font-size: 2rem;
+  line-height: 30px;
+  color: var(--pine-tree);
+}
+.information-container .information-container__article p {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 25px;
+}
+.dolar,
+.down,
+.direction {
+  display: inline-block;
+  width: 53px;
+  max-width: 73px;
+  min-width: 53px;
+  height: 53px;
+  max-height: 73px;
+  min-height: 53px;
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 10px;
+}
+
+.dolar {
+  background-image: url('../static/dolar.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.down {
+  background-image: url('../static/down.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.direction {
+  background-image: url('../static/direction.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
