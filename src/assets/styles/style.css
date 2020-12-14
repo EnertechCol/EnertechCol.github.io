@@ -230,7 +230,9 @@ header {
     margin: 0 auto;
   }
 }
+/*-----------------conócenos----------------*/
 
+/*----------------media querys----------------*/
 @media screen and (min-width: 768px) {
   .header-container__text {
     margin-top: 10px;
