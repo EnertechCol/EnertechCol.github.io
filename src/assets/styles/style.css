@@ -8,10 +8,10 @@
 :root {
   /* Colores */
   --emerald: #4ad37d;
-  --dartmouth-green: #017b3a;
+  --spanish-green: #18904f;
   --alice-blue: #eff7fa;
   --nickel: #6b766c;
-  --cadet-blue: #38a3a5;
+  --azure-blue: #d9eff8;
   --pine-tree: #242e24;
 }
 * {
@@ -74,7 +74,7 @@ header {
   font-size: 3.6rem;
   text-align: center;
   /* 4. Visuales (diseño) */
-  color: var(--dartmouth-green);
+  color: var(--spanish-green);
   /* 5. Otros */
 }
 
@@ -99,7 +99,7 @@ header {
 }
 .button-container__button {
   height: 38px;
-  background: var(--dartmouth-green);
+  background: var(--spanish-green);
   text-align: center;
   padding: 12px 25px;
   border: none;
