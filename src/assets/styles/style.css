@@ -222,10 +222,14 @@ header {
   background: linear-gradient(to bottom, #4cb77d, #248f57fc, #128848fa);
   color: var(--alice-blue);
   padding-top: 36px;
+  padding-bottom: 36px;
 }
-
+.conocenos-container__info {
+  margin-bottom: 36px;
+}
 .conocenos-container hr {
   width: 60%;
+  max-width: 380px;
   margin: 10px auto;
   height: 2px;
   border-width: 0;
@@ -236,7 +240,6 @@ header {
   width: 90%;
 }
 .conocenos-container ul {
-  list-style: symbols('-');
   list-style-position: inside;
 }
 .form-container {
