@@ -221,7 +221,7 @@ header {
   font-size: 1.6rem;
   line-height: 2.5rem;
   background: linear-gradient(to bottom, #4cb77d, #248f57fc, #128848fa);
-  color: var(--alice-blue);
+  color: #24232e;
   padding-top: 36px;
   padding-bottom: 36px;
 }
@@ -234,8 +234,8 @@ header {
   margin: 10px auto;
   height: 2px;
   border-width: 0;
-  color: var(--alice-blue);
-  background-color: var(--alice-blue);
+  color: #24232e;
+  background-color: #24232e;
 }
 .conocenos-container hr:nth-child(1) {
   width: 90%;
